@@ -1,7 +1,7 @@
 # UNION-based SQL Injection — CTF Challenge
 
 ## Summary
-Simple Flask app with a user search feature vulnerable to UNION-based SQLi.
+
 Goal: extract the admin password (flag) using a UNION SELECT.
 
 ## Quick start (Docker Compose)

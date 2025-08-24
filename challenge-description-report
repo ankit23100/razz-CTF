@@ -1,0 +1,15 @@
+You are analyzing a fictional bank portal. 
+
+The directory has a search feature to look up employees by name. However, due to insecure SQL query handling, the portal is vulnerable to Union-based SQL Injection.
+
+Your task: exploit the vulnerability and retrieve the hidden flag stored in the backend database.
+
+Category: SQL Injection - Union-based
+Difficulty: Easy – Medium
+
+Subtle Hints for Players - 
+
+The search form takes direct user input without sanitization.
+Try to see how many columns the query is returning.
+Once aligned, attempt to union your query with another table.
+The flag is hidden inside the admin table.

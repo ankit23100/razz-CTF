@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+  {% if error %}
+    <div class="alert alert-danger">{{ error }}</div>
+  {% elif rows %}
+    <h5>Results</h5>
+    <table class="table table-sm">
+      <thead><tr><th>col1</th><th>col2</th><th>col3</th></tr></thead>
+      <tbody>
+      {% for r in rows %}
+        <tr>{% for c in r %}<td>{{ c }}</td>{% endfor %}</tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <div class="text-muted">No results.</div>
+  {% endif %}
+{% endblock %}

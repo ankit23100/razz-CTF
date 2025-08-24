@@ -1,0 +1,27 @@
+body {
+        background: #f8f9fa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .navbar {
+        background: linear-gradient(90deg, #004e92, #000428);
+      }
+      .navbar-brand {
+        font-weight: bold;
+        color: #fff !important;
+      }
+      .card {
+        border-radius: 15px;
+      }
+      .card-body h1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #004e92;
+      }
+      footer {
+        margin-top: 50px;
+        padding: 15px;
+        background: #f1f1f1;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #6c757d;
+      }
